@@ -1,0 +1,9 @@
+
+<view>
+    <text class="container title">欢迎来到课堂签到</text>
+</view>
+<view class="container">
+     <button  class="btn" bindtap="loginTea">教师</button> 
+    <button  class="btn" bindtap="loginStu">学生</button>
+</view>
+

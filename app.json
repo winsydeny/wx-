@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    
+    "pages/student/student",
+    
+    
+    "pages/teacherInfo/teacherInfo",
+    "pages/teacher_1/teacher_1",
+    
+    "pages/teacher_1_1/teacher_1_1",
+    
+
+    "pages/register/register",
+    
+    "pages/logs/logs",
+    
+    
+    "pages/student_1/student_1",
+    
+    
+    
+    
+    
+    
+    
+    
+    "pages/teacher/teacher"
+    
+    
+      ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFC125",
+    "navigationBarTitleText": "课堂签到",
+    "navigationBarTextStyle":"black"
+  },
+  
+    "tabBar": {
+      "color": "#ccc",
+      "selectedColor": "#FFA500",
+      "list": [
+        {
+          "pagePath": "pages/teacher_1_1/teacher_1_1",
+          "text": "课堂",
+          "iconPath": "pages/asstes/class.png",
+          "selectedIconPath": "pages/asstes/class-act.png"
+        },
+        {
+          "pagePath": "pages/teacher_1/teacher_1",
+          "text": "功能",
+          "iconPath": "pages/asstes/fun.png",
+          "selectedIconPath": "pages/asstes/fun-act.png"
+        }
+      ]
+    }
+  }
+

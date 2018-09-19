@@ -1,0 +1,20 @@
+.section__title{
+     font-size: 40rpx;
+     font-weight: bolder;
+     margin-left: 40rpx;  
+}
+.section picker{
+  width: 94%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 0 auto;
+  background-color: gainsboro;
+}
+button{
+  position: relative;
+  top: 60rpx;
+  width: 90%;
+  background-color: orangered;
+  color: white;
+  border-radius: 70rpx;
+}

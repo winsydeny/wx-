@@ -1,0 +1,29 @@
+/* pages/login-teach/login-teach.wxss */
+.tittle{
+  width: 160rpx;
+  margin: 0 auto;
+  
+}
+.bg{
+  width: 92%;
+  height: 500rpx;
+  margin-top: 200rpx;
+  margin: 0 auto;
+}
+.bg input{
+   border-bottom: 1rpx solid orange;
+   height: 100rpx;
+   
+}
+.bg button{
+  margin-top: 20rpx;
+}
+.image{
+  width: 200rpx;
+  height: auto;
+}
+.login{
+  border-radius: 50rpx;
+  color: white;
+  background-color: orange;
+}

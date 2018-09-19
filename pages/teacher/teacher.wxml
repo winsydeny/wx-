@@ -1,0 +1,12 @@
+<view class="container" style="padding:146rpx">
+  <text >欢迎登陆</text>
+</view>
+<view class="bg">
+    <input placeholder="user" bindinput="userinput">      
+    </input>
+    <input type="password" placeholder="password" bindinput="passwordinput" ></input>
+    
+    <button class="login" bindtap="goclass">login</button>
+    <text class="container" style="font-weight:100">Forgot Password?</text>
+</view>
+<view class="container">----------<text bindtap="register">点击注册</text>----------</view>

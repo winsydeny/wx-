@@ -1,0 +1,13 @@
+<view class="container" style="padding:146rpx">
+  <text style="font-size:60rpx">REGISTER</text>
+</view>
+<view class="bg">
+    <input placeholder="username" bindinput="usernameinput">      
+    </input>
+    <input type="password" placeholder="password" bindinput="passwordinput" ></input>
+    <!-- <input  placeholder="course" bindinput="course"></input> -->
+    
+    <button class="login" bindtap="register">register</button>
+</view>
+
+

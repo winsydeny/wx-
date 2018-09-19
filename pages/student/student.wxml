@@ -1,0 +1,21 @@
+<view class="bgs">
+
+  <view class="section">
+  <view class="section__title">班级</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      当前选择：{{array[index]}}
+    </view>
+  </picker>
+</view>
+
+  <text style="color:red;font-weight:300">请输入你的真实姓名:</text>
+  
+  <input placeholder="enter" bindinput="name"></input>
+  <button bindtap="loginClass">进入课堂</button>
+  <!-- <button type="primary" bindtap="setting">setting</button> -->
+</view>
+
+
+<!-- <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<view wx:else>请升级微信版本</view> -->

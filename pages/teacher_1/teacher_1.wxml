@@ -1,0 +1,5 @@
+<view class='container'>
+<text>Hello  teacher</text>
+</view>
+<view>课程:{{course}}</view>
+<button bindtap="detele">下课</button>

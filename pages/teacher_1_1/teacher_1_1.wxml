@@ -1,0 +1,15 @@
+<view class="top">
+   <view style="margin-left:30rpx">正在上课:</view>
+   <view style="color:orangered">{{numbers}}</view>
+   <view>人</view>
+   <view style="position:relative;left:200rpx;">班级:16数媒3</view>
+
+</view >
+<view class="studentlist">
+  <text>{{username}}</text>
+<text class="local">登陆位置</text>
+</view>
+<view wx:for="{{listname}}" wx:key="id" class="list">
+  <text class="list-text">{{item.name}}</text>
+  <text class="location">{{item.location}}</text>
+</view>

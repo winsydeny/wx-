@@ -1,0 +1,38 @@
+<view class="container">
+  <text>请补充相关信息</text>
+</view>
+<view>
+   <view class="section">
+  <view class="section__title">学校:</view>
+  <picker bindchange="bindPickerChange" value="{{sindex}}" range="{{school}}">
+    <view class="picker">
+      当前选择:{{school[sindex]}}
+    </view>
+  </picker>
+</view>
+</view>
+
+
+<view>
+   <view class="section">
+  <view class="section__title">班级:</view>
+  <picker bindchange="bindPickerChangeclass" value="{{cindex}}" range="{{classes}}">
+    <view class="picker">
+       当前选择:{{classes[cindex]}}
+    </view>
+  </picker>
+</view>
+</view>
+
+
+<view>
+   <view class="section">
+  <view class="section__title">课程名称:</view>
+  <picker bindchange="bindPickerChangecourse" value="{{crindex}}" range="{{course}}">
+    <view class="picker">
+       当前选择:{{course[crindex]}}
+    </view>
+  </picker>
+</view>
+</view>
+<button bindtap="postTeacherInfo">Next</button>

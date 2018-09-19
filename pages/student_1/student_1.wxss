@@ -1,0 +1,4 @@
+/* pages/student_1/student_1.wxss */
+text{
+  font-weight: 600;
+}
